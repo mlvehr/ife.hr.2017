@@ -1,0 +1,60 @@
+/*
+ * 仅测试
+*/
+
+@font-face {
+    font-family: hr-font;
+    src: url("font/hr-font.eot");
+    src: url('font/hr-font.eot') format('embedded-opentype'),
+    url('font/hr-font.woff') format('woff'),
+    url('font/hr-font.ttf') format('truetype'),
+    url('font/hr-font.svg') format('svg');
+}
+
+.hr {
+    display: inline-block;
+    font: normal normal normal 14px/1 hr-font;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.hr-back:before {
+    content: "\e900";
+}
+.hr-next:before {
+    content: "\e907";
+}
+.hr-reload:before {
+    content: "\e90a";
+}
+.hr-user:before {
+    content: "\e905";
+}
+.hr-home:before {
+    content: "\e903";
+}
+.hr-checked:before {
+    content: "\e901";
+}
+.hr-magnifying-glass:before {
+    content: "\e906";
+}
+.hr-export:before {
+    content: "\e902";
+}
+.hr-share:before {
+     content: "\e90d";
+}
+.hr-question-mark:before {
+    content: "\e909";
+}
+.hr-settings:before {
+    content: "\e90c";
+}
+.hr-information:before {
+    content: "\e904";
+}
+
+
