@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义网页右键菜单</title>
+    <link rel="stylesheet" href="hr-font.css">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        article {
+            margin: 40px 40px;
+            width: 580px;
+        }
+    </style>
+</head>
+<body>
+<article>
+    <h1>自定义网页右键菜单</h1>
+    <p>2017年2月24日 16:36 </p>
+</article>
+
+<menu class="right-click-menu" id="rClickMenu">
+    <ul class="menu-header">
+        <li><i class="hr hr-back"></i></li>
+        <li><i class="hr hr-next"></i></li>
+        <li><i class="hr hr-reload"></i></li>
+        <li><i class="hr hr-user"></i></li>
+        <!--登录后替换-->
+        <!--<li><img src="public_host/img/user.jpg" alt="个人信息"></li>-->
+    </ul>
+    <ul class="menu-text">
+        <!--在文本选中时-->
+        <li><span><i class="hr hr-checked"></i>复制</span></li>
+        <li><span><i class="hr hr-magnifying-glass"></i>搜索</span></li>
+    </ul>
+    <ul>
+        <li><span><i class="hr hr-export"></i>输出...</span></li>
+        <li><span><i class="hr hr-share"></i>分享...</span></li>
+    </ul>
+    <ul class="setting">
+        <li><span><i class="hr hr-question-mark"></i>调试</span></li>
+        <li><span><i class="hr hr-settings"></i>设置</span></li>
+        <li><span><i class="hr hr-information"></i>关于</span></li>
+    </ul>
+</menu>
+<script src="index.js"></script>
+</body>
+
+</html>

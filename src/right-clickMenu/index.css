@@ -1,0 +1,61 @@
+.right-click-menu {
+    position: absolute;
+    display: none;
+    padding: 2px 0;
+    border-radius: 5px;
+    background: #F7F7F7;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    opacity: 1;
+    -webkit-transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(1);
+    pointer-events: auto;
+}
+
+.right-click-menu ul {
+    border-bottom: #ffffcc solid 1px;
+    margin: 1px 3px 2px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.right-click-menu ul li {
+    line-height: 1.5em;
+    list-style-type: none;
+    border-radius: 2px;
+}
+
+.right-click-menu ul li :hover {
+    background: #ccff99;
+    cursor: pointer;
+}
+
+.right-click-menu ul li span {
+    display: block;
+    padding: 4px;
+}
+
+.right-click-menu ul li i {
+    padding: 4px 10px 0 12px;
+}
+
+.right-click-menu .menu-header {
+    display: inline-block;
+    font-size: 35px;
+}
+
+.right-click-menu .menu-header li {
+    float: left;
+    padding: 0;
+}
+
+.right-click-menu .menu-header i {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    padding: 6px;
+}
+
+/*# sourceMappingURL=index.css.map */
